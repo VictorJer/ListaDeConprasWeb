@@ -1,6 +1,6 @@
 # 🛒 Lista de Compras
 
-[![.NET 10](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/)
+[![.NET 10](https://img.shields.io/badge/.NET-10.0-purple.svg)](https://dotnet.microsoft.com/)
 [![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET-MVC-blue.svg)](https://learn.microsoft.com/aspnet/core/mvc/)
 [![Architecture](https://img.shields.io/badge/Architecture-3--Tier%20%2F%20DDD-green.svg)]()
 
