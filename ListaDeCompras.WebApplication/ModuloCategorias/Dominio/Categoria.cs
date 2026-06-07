@@ -13,7 +13,8 @@ public class Categoria : EntidadeBase<Categoria>
 
     public override void AtualizarDados(Categoria entidadeAtualizada)
     {
-        throw new NotImplementedException();
+        Nome = entidadeAtualizada.Nome;
+        Cor = entidadeAtualizada.Cor;
     }
 
     public override List<string> Validar()

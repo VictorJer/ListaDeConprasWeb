@@ -3,6 +3,35 @@
     ViewBag.Titulo = "Página Inicial";
 }
 
-<div>
-    <h2>Hello gays</h2>
+<div class="row d-flex justify-content-center align-items-center min-vh-100 bg-light">
+    <div class="col-lg-7">
+        <div class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+            <h1 class="display-5 fw-semibold mb-3">Lista de Compras</h1>
+
+            <p class="lead text-secondary mb-4">
+                Gerencie sua lista de compras do seu geito 🛒
+            </p>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+
+            <div class="card border-0 shadow rounded-4" style="width: 22rem;">
+
+                @* <img
+        src="https://play-lh.googleusercontent.com/488vM8WwL7Xp57Xn8f6_YhXFzH9gbyuVj31_9j_E7L9Yg7V7rE8O7M3yV3vG-vE7Sww=w240-h480"
+             class="card-img-top rounded-top-4 p-4 bg-white" alt="App Lista de Compras"
+             style="object-fit: contain; max-height: 200px;"> *@
+
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold text-dark mb-1">Lista de Compras</h5>
+
+                    <div class="list-group mt-4">
+                        <a class="btn btn-dark w-100 rounded-pill py-2 fw-medium shadow-sm" asp-controller=""
+                           asp-action="">Gerenciar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
