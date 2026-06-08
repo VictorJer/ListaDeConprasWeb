@@ -7,6 +7,8 @@ public abstract class ContextoJson
 {
     private readonly string? caminhoArquivo;
 
+    public List<Categoria> Categorias { get; set; } = new List<Categoria>();
+
     public ContextoJson()
     {
         string caminhoAppData = Environment
@@ -48,6 +50,7 @@ public abstract class ContextoJson
         if (contextoSalvo == null)
             return;
 
+        Categorias = contextoSalvo.Categorias;
 
     }
 }

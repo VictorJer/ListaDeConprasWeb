@@ -19,6 +19,17 @@ public class Categoria : EntidadeBase<Categoria>
 
     public override List<string> Validar()
     {
-        throw new NotImplementedException();
+        List<string> erros = new List<string>();
+
+        if (string.IsNullOrWhiteSpace(Nome))
+            erros.Add("o campo \"Nome\" e obrigatorio.");
+
+        else if (Nome.Length > 50)
+            erros.Add("O campo \"Nome\" deve conter no maximo 50 caracteres");
+
+        if (Cor > 5)
+            erros.Add("A cor deve conter um numero entre 1 e 5");
+
+        return erros;
     }
 }
